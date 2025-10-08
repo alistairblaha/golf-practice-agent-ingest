@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/fetch-trackman.js": { "runtime": "nodejs20.x" }
+  },
+  "crons": [
+    { "path": "/api/fetch-trackman", "schedule": "0 2 * * * *" }
+  ]
+}
